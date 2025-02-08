@@ -13,9 +13,11 @@
 
 # Task 05:
 Output 01:
+
 ![image](https://github.com/user-attachments/assets/d6ece849-6e63-41c2-b0b1-adeff3117f8c)
 
 Output 02:
+
 ![image](https://github.com/user-attachments/assets/2eaca9ea-9e3d-4595-8282-739ba280cc80)
 
 # Task 06:
