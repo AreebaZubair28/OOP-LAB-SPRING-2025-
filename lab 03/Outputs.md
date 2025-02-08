@@ -2,8 +2,7 @@
 ![image](https://github.com/user-attachments/assets/050ca96f-170d-4921-a763-61b6b9c9b5d7)
 
 # Task 02:
-![image](https://github.com/user-attachments/assets/c384110f-c34c-4d9c-9f11-eb89b7028687)
-![image](https://github.com/user-attachments/assets/07326e98-58e5-4633-b130-fa6c2e2e3045)
+![image](https://github.com/user-attachments/assets/c384110f-c34c-4d9c-9f11-eb89b7028687)![image](https://github.com/user-attachments/assets/07326e98-58e5-4633-b130-fa6c2e2e3045)
 
 # Task 03:
 ![image](https://github.com/user-attachments/assets/a9a11a29-ea81-4661-8fb7-2b0dce539824)
