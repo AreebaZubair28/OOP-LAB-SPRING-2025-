@@ -9,11 +9,6 @@ class GroceryStore{
     float Price[100];
 
 public:
-    GroceryStore()
-    {   Item[100];
-        Price[100];
-    }
-
     void AddItems(int &num)
     {   cout<<"Item: ";
         cin>>Item[num];
