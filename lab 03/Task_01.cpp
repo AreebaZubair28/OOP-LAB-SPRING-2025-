@@ -2,13 +2,12 @@
 using namespace std;
 
 class MarkerPens{
-      
-    public:
     string brand;
     string color;
     int inklevel;
     bool refillability;
 
+public:
     void input()
     {   cout<<"Brand: ";
         cin>>brand;
