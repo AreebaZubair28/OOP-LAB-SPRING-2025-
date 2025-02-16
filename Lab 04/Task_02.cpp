@@ -28,7 +28,11 @@ class Book{
     }
 
     bool Purchase(int s)
-    {   if(s>*stock)
+    {   if(*stock<5)
+        {   StockMechanism();
+            return 0;
+        }
+        if(s>*stock)
         {  cout<<"We are only available with "<<*stock<<" books.\nSo purchasing "<<s<<" is not possible.\n";
            return false;
         }else{
@@ -80,8 +84,9 @@ class Book{
    {  b.ApplyDiscount(12);
    }else{
     b.ApplyDiscount(0);
+    b.StockMechanism();
    }
-   b.StockMechanism();
+
    cout<<endl;
 
    cout<<"Purchasing Books..................\n";
@@ -90,8 +95,8 @@ class Book{
    {  b.ApplyDiscount(20);
    }else{
     b.ApplyDiscount(0);
+    b.StockMechanism();
    }
-   b.StockMechanism();
    cout<<endl;
 
    cout<<"Purchasing Books..................\n";
@@ -100,8 +105,8 @@ class Book{
    {  b.ApplyDiscount(6);
    }else{
     b.ApplyDiscount(0);
+    b.StockMechanism();
    }
-   b.StockMechanism();
    cout<<endl;
 
    b.Display();
