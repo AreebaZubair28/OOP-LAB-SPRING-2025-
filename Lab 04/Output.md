@@ -7,3 +7,5 @@
 # Task 03:
 ![image](https://github.com/user-attachments/assets/087f8b58-2d8a-465b-b5c9-65fa56359366)
 
+# Task 04:
+![image](https://github.com/user-attachments/assets/f5965d04-1122-4848-90df-9e8f13d1bd97)
