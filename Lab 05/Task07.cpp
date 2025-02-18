@@ -7,14 +7,16 @@ public:
     int id; 
     string name;
     float price;
+    string category;
 
-   Product(int i, string n, float p) : id(i), name(n), price(p) {}
+   Product(int i, string n, float p, string c) : id(i), name(n), price(p), category(c) {}
 
    void display()
    {
     cout<<"Name: "<<name<<endl;
     cout<<"Id: "<<id<<endl;
     cout<<"Price: "<<price<<endl;
+    cout<<"Category: "<<category<<endl;
     cout<<"------------------"<<endl;
    }
 };
@@ -70,15 +72,17 @@ public:
 int main()
 {  Inventory i;
     Product* p;
-    int id;  string name;  float price;
+    int id;  string name;  float price; string category;
     int choise;
    
    do{
-    cout<<"1-Add\n2-Search\n3-List of Products\n4-Exit\nEnter your choise: ";
+    cout<<"1-Add Product\n2-Search Product\n3-Display Cheapest Products\n4-Exit\nEnter your choise: ";
     cin>>choise;
 
     switch (choise)
     {   case 01:
+        cout<<"Category (Electronics/Clothing/Groceries): ";
+        cin>>category;
         cout<<"Name: ";
         cin.ignore(); 
         getline(cin,name);
@@ -86,7 +90,7 @@ int main()
         cin>>id;
         cout<<"Price: ";
         cin>>price;
-        p = new Product(id, name, price);
+        p = new Product(id, name, price,category);
         i.AddProduct(p);
         break;
        
