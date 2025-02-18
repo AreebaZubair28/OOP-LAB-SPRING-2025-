@@ -10,3 +10,6 @@
 
 # Task 04
 ![image](https://github.com/user-attachments/assets/03f63fda-5e3d-4316-bb4f-a09b61074d63)
+
+# Task 05
+![image](https://github.com/user-attachments/assets/f23c8eda-11de-4bf6-b51e-ea4ba1ef9da4)
