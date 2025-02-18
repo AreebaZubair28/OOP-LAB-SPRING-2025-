@@ -16,3 +16,12 @@
 
 # Task 06
 ![image](https://github.com/user-attachments/assets/374b46de-14ca-43e3-bee8-4ef46f95edc7)
+
+# Task 07
+![image](https://github.com/user-attachments/assets/c3392ba8-c75a-47e3-8002-84c4073ecaff)
+![image](https://github.com/user-attachments/assets/8cbabd85-762a-4505-b49e-de5ae4833acc)
+![image](https://github.com/user-attachments/assets/46b74ee0-83d0-44c4-9551-c5b195069995)
+
+
+
+
