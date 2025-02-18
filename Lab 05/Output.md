@@ -19,9 +19,4 @@
 
 # Task 07
 ![image](https://github.com/user-attachments/assets/a6a3d017-1dfe-476a-a0d4-f72edbd8c87d)
-![image](https://github.com/user-attachments/assets/b7611694-34b9-4ace-9630-614f32a2ea81)
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/982a9e2d-7aea-49aa-91b7-20f74ffcb95c)
