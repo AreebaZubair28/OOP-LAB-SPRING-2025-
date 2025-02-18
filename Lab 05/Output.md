@@ -13,3 +13,6 @@
 
 # Task 05
 ![image](https://github.com/user-attachments/assets/f23c8eda-11de-4bf6-b51e-ea4ba1ef9da4)
+
+# Task 06
+![image](https://github.com/user-attachments/assets/374b46de-14ca-43e3-bee8-4ef46f95edc7)
