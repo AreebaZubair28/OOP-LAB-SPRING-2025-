@@ -39,17 +39,18 @@ class SmartWearable : public SmartPhone, public SmartWatch{
     int stepCounter;
     
 public:
-   SmartWearable(int id, bool s, float sc, bool h) : Device(id,s), SmartPhone(id,s,sc), SmartWatch(id,s,h) {}
+   SmartWearable(int id, bool s, float sc, bool h, int step) : Device(id,s), SmartPhone(id,s,sc), SmartWatch(id,s,h), stepCounter(step) {}
    
    void display()
    {   Device :: display();
        SmartPhone :: display();
        SmartWatch :: display();
+       cout<<"Step Count: "<<stepCounter<<endl;
    }
 };
 
 int main() {
-    SmartWearable sw(1020,true,15,false);
+    SmartWearable sw(1020,true,15,true,3);
     sw.display();
 
     return 0;
