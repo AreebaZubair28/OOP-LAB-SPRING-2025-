@@ -29,7 +29,7 @@ public:
         dm = amount;
     }
 
-    void withdraw(float amount)
+    virtual void withdraw(float amount)
     {   if (amount <= balance)
         {   balance -= amount;
             cout << "Withdrawing........." << amount << endl;
@@ -42,7 +42,7 @@ public:
 
     float calculateInterest();
 
-    void print()
+    virtual void print()
     {   cout << "Account Number: " << accountNumber << endl;
         cout << "Current Balance: Rs. " << balance << endl;
         cout << "Withdrew Amount: " << wm << endl;
@@ -155,17 +155,20 @@ public:
 };
 
 int main()
-{
+{   
     SavingAccount sa(1001,1000.000,"Areeba",.05,100);
+    Account* a = &sa;
     CheckingAccount ca(1002,1500.000,"Aqsa",500.000);
     FixedDepositAccount fa(1003,2000.000,"Fatima",2025,0.75);
 
-    sa.withdraw(500.00);
-    sa.print();
+    a->withdraw(500.00);
+    a->print();
+    
+    a = &ca;
+    a->withdraw(2000.00);
+    a->print();
 
-    ca.withdraw(2000.00);
-    ca.print();
-
-    fa.withdraw(2000);
-    fa.print();
+    a = &fa;
+    a->withdraw(2000);
+    a->print();
 }
