@@ -9,6 +9,7 @@
 
 
 # Task # 04:
+![image](https://github.com/user-attachments/assets/787c51de-7fb2-400e-a628-03cb3babf42e)
 
 
 # Task # 05:
