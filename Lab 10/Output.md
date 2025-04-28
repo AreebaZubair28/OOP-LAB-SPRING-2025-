@@ -20,7 +20,7 @@
 ![image](https://github.com/user-attachments/assets/befb7b7f-4ece-438e-bac7-36f403a9de7b)
 
 # Task 08:
-![image](https://github.com/user-attachments/assets/41a27049-de99-4501-8926-dbeabd747c3f)
+![image](https://github.com/user-attachments/assets/a4320742-9ec5-4525-bdad-7d8cb9ed5073)
 
 # Task 09:
 # Task 10:
