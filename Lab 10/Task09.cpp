@@ -14,15 +14,15 @@ int main() {
     inFile.seekg(ios :: beg);
     inFile.read(buffer, 10);
     streampos pos = inFile.tellg();
-    cout << "Current position is: " << pos << endl;
+    cout << "\nPosition after first read is: " << pos << endl;
 
     inFile.read(buffer, 10);
     pos = inFile.tellg();
-    cout << "Current position is: " << pos << endl;
+    cout << "\nPosition after second read is: " << pos << endl;
 
     inFile.read(buffer, 10);
     pos = inFile.tellg();
-    cout << "Current position is: " << pos << endl;
+    cout << "\nPosition after third read is: " << pos << endl << endl;
 
     inFile.close();
 }
