@@ -27,5 +27,5 @@ int main() {
     }
     char buffer[20] = {0};
     infile.read(buffer,20);
-    cout << "Entire string After changing: " << buffer << endl;
+    cout << "\nEntire string After changing: " << buffer << endl << endl;
 }
