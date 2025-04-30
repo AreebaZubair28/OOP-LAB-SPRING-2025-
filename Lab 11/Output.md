@@ -5,5 +5,7 @@
 ![image](https://github.com/user-attachments/assets/66a56de3-b4dc-4d92-a81e-afffb40a225c)
 
 # Task 03:
+![image](https://github.com/user-attachments/assets/7fbeaed0-5d3f-4d6b-91fe-386bec63f25c)
+
 # Task 04:
 # Task 05:
